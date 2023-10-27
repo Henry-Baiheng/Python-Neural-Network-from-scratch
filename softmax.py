@@ -7,3 +7,4 @@ def activation_softmax(inputs)
     norm_base = np.sum(exp_values,axis-=1,keepdims=true) # 标准化 
     norm_values = exp_values/nor_base
     return norm_values 
+#前几层用relu   最后用softmax
